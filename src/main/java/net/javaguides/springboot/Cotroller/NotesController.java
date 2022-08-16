@@ -18,10 +18,6 @@ public class NotesController {
 	@Autowired
 	NotesService notesService;
 	
-	@GetMapping("/hello")
-	public String getAll(){
-		return "helloworld";
-		}
 
 	@GetMapping("/notes")
 	private List<Notes> getAllNotes() {
